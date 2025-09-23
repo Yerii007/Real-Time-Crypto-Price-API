@@ -41,15 +41,15 @@ def test_user_model_unique_constraint(app):
         user2.name = name
         user2.set_password('pass2')
         db.session.add(user2)
-    import sqlalchemy.exc
-    try:
-        db.session.commit()
-        assert False, "Should have raised an IntegrityError"
-    except sqlalchemy.exc.IntegrityError:
-        db.session.rollback()
-        users_with_name = db.session.query(User).filter_by(name=name).all()
-        assert len(users_with_name) == 1
-        assert users_with_name[0].id == user1.id
+        import sqlalchemy.exc
+        try:
+            db.session.commit()
+            assert False, "Should have raised an IntegrityError"
+        except sqlalchemy.exc.IntegrityError:
+            db.session.rollback()
+            users_with_name = db.session.query(User).filter_by(name=name).all()
+            assert len(users_with_name) == 1
+            assert users_with_name[0].id == user1.id
 
 def test_crypto_price_model(app):
 

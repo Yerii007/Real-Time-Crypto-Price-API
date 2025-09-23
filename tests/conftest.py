@@ -44,7 +44,7 @@ def sample_user(app):
         if user is None:
             pytest.fail(f"Failed to create sample user '{username}' in fixture. Check AuthService logic.")
     if user:
-        test_password = password_plaintext  # Store password locally if needed for tests
+        user.test_password = password_plaintext  # Store password locally if needed for tests
     yield user, token
     with app.app_context():
         user_to_delete = db.session.get(User, user.id) if user else None
