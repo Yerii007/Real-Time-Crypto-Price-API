@@ -1,0 +1,80 @@
+2025-09-21 19:53:43,787 INFO app: App initialized
+2025-09-21 19:53:44,591 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.coingecko.com:443
+2025-09-21 19:53:46,279 DEBUG urllib3.connectionpool: https://api.coingecko.com:443 "GET /api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Cbinancecoin%2Csolana&price_change_percentage=24h HTTP/1.1" 200 None
+2025-09-21 19:53:46,514 INFO app: Background update: Success
+2025-09-21 19:53:48,666 INFO flask-limiter: ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: auth.login
+2025-09-21 19:53:49,902 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.coingecko.com:443
+2025-09-21 19:53:50,752 DEBUG urllib3.connectionpool: https://api.coingecko.com:443 "GET /api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Cbinancecoin%2Csolana&price_change_percentage=24h HTTP/1.1" 200 None
+2025-09-21 19:53:50,809 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.coingecko.com:443
+2025-09-21 19:53:51,683 DEBUG urllib3.connectionpool: https://api.coingecko.com:443 "GET /api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Cbinancecoin%2Csolana&price_change_percentage=24h HTTP/1.1" 200 None
+2025-09-21 20:11:56,766 INFO app: App initialized
+2025-09-21 20:11:57,396 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.coingecko.com:443
+2025-09-21 20:11:58,571 DEBUG urllib3.connectionpool: https://api.coingecko.com:443 "GET /api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Cbinancecoin%2Csolana&price_change_percentage=24h HTTP/1.1" 200 None
+2025-09-21 20:11:58,743 INFO app: Background update: Success
+2025-09-21 20:23:16,965 INFO app: App initialized
+2025-09-21 20:23:17,469 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.coingecko.com:443
+2025-09-21 20:23:18,658 DEBUG urllib3.connectionpool: https://api.coingecko.com:443 "GET /api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Cbinancecoin%2Csolana&price_change_percentage=24h HTTP/1.1" 200 None
+2025-09-21 20:23:18,771 INFO app: Background update: Success
+2025-09-23 13:14:59,926 INFO app: App initialized
+2025-09-23 13:15:00,674 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.coingecko.com:443
+2025-09-23 13:15:02,764 DEBUG urllib3.connectionpool: https://api.coingecko.com:443 "GET /api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Cbinancecoin%2Csolana&price_change_percentage=24h HTTP/1.1" 200 None
+2025-09-23 13:15:02,899 INFO app: Background update: Success
+2025-09-23 15:10:49,649 INFO app: App initialized
+2025-09-23 15:10:50,390 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.coingecko.com:443
+2025-09-23 15:10:50,394 DEBUG urllib3.util.retry: Incremented Retry for (url='/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Cbinancecoin%2Csolana&price_change_percentage=24h'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-09-23 15:10:50,394 WARNING urllib3.connectionpool: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012BB0B7FE00>: Failed to resolve 'api.coingecko.com' ([Errno 11001] getaddrinfo failed)")': /api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Cbinancecoin%2Csolana&price_change_percentage=24h
+2025-09-23 15:10:50,394 DEBUG urllib3.connectionpool: Starting new HTTPS connection (2): api.coingecko.com:443
+2025-09-23 15:10:50,395 DEBUG urllib3.util.retry: Incremented Retry for (url='/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Cbinancecoin%2Csolana&price_change_percentage=24h'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2025-09-23 15:10:52,395 WARNING urllib3.connectionpool: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012BB0BEB4D0>: Failed to resolve 'api.coingecko.com' ([Errno 11001] getaddrinfo failed)")': /api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Cbinancecoin%2Csolana&price_change_percentage=24h
+2025-09-23 15:10:52,397 DEBUG urllib3.connectionpool: Starting new HTTPS connection (3): api.coingecko.com:443
+2025-09-23 15:10:52,399 DEBUG urllib3.util.retry: Incremented Retry for (url='/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Cbinancecoin%2Csolana&price_change_percentage=24h'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2025-09-23 15:18:22,748 INFO app: App initialized
+2025-09-23 15:18:23,555 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.coingecko.com:443
+2025-09-23 15:18:25,274 DEBUG urllib3.connectionpool: https://api.coingecko.com:443 "GET /api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Cbinancecoin%2Csolana&price_change_percentage=24h HTTP/1.1" 200 None
+2025-09-23 15:18:25,693 INFO app: Background update: Success
+2025-09-23 15:46:38,789 INFO app: App initialized
+2025-09-23 15:46:39,900 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.coingecko.com:443
+2025-09-23 15:46:40,405 INFO werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-23 15:46:40,405 INFO werkzeug: [33mPress CTRL+C to quit[0m
+2025-09-23 15:46:40,458 INFO werkzeug:  * Restarting with stat
+2025-09-23 15:46:41,643 INFO app: App initialized
+2025-09-23 15:46:42,204 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.coingecko.com:443
+2025-09-23 15:46:42,240 WARNING werkzeug:  * Debugger is active!
+2025-09-23 15:46:42,244 INFO werkzeug:  * Debugger PIN: 117-012-633
+2025-09-23 15:46:43,754 DEBUG urllib3.connectionpool: https://api.coingecko.com:443 "GET /api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Cbinancecoin%2Csolana&price_change_percentage=24h HTTP/1.1" 200 None
+2025-09-23 15:46:43,855 INFO app: Background update: Success
+2025-09-23 15:46:44,022 DEBUG urllib3.connectionpool: https://api.coingecko.com:443 "GET /api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Cbinancecoin%2Csolana&price_change_percentage=24h HTTP/1.1" 200 None
+2025-09-23 15:46:44,164 INFO app: Background update: Success
+2025-09-23 15:48:07,898 INFO app: App initialized
+2025-09-23 15:48:08,018 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.coingecko.com:443
+2025-09-23 15:48:08,058 INFO werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-23 15:48:08,058 INFO werkzeug: [33mPress CTRL+C to quit[0m
+2025-09-23 15:48:08,060 INFO werkzeug:  * Restarting with stat
+2025-09-23 15:48:08,961 INFO app: App initialized
+2025-09-23 15:48:09,081 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.coingecko.com:443
+2025-09-23 15:48:09,109 WARNING werkzeug:  * Debugger is active!
+2025-09-23 15:48:09,113 INFO werkzeug:  * Debugger PIN: 117-012-633
+2025-09-23 15:48:13,235 DEBUG urllib3.connectionpool: https://api.coingecko.com:443 "GET /api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Cbinancecoin%2Csolana&price_change_percentage=24h HTTP/1.1" 200 None
+2025-09-23 15:48:13,358 INFO app: Background update: Success
+2025-09-23 15:48:28,433 DEBUG urllib3.util.retry: Incremented Retry for (url='/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Cbinancecoin%2Csolana&price_change_percentage=24h'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-09-23 15:48:28,433 WARNING urllib3.connectionpool: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.coingecko.com', port=443): Read timed out. (read timeout=10)")': /api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Cbinancecoin%2Csolana&price_change_percentage=24h
+2025-09-23 15:48:28,434 DEBUG urllib3.connectionpool: Starting new HTTPS connection (2): api.coingecko.com:443
+2025-09-23 15:48:29,155 DEBUG urllib3.connectionpool: https://api.coingecko.com:443 "GET /api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Cbinancecoin%2Csolana&price_change_percentage=24h HTTP/1.1" 200 None
+2025-09-23 15:48:29,316 INFO app: Background update: Success
+2025-09-23 15:49:03,853 INFO werkzeug: 127.0.0.1 - - [23/Sep/2025 15:49:03] "[35m[1mPOST /api/register HTTP/1.1[0m" 201 -
+2025-09-23 15:49:18,772 INFO werkzeug: 127.0.0.1 - - [23/Sep/2025 15:49:18] "POST /api/login HTTP/1.1" 200 -
+2025-09-23 15:53:13,360 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.coingecko.com:443
+2025-09-23 15:53:19,202 DEBUG urllib3.connectionpool: https://api.coingecko.com:443 "GET /api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Cbinancecoin%2Csolana&price_change_percentage=24h HTTP/1.1" 200 None
+2025-09-23 15:53:19,363 INFO app: Background update: Success
+2025-09-23 15:53:29,321 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.coingecko.com:443
+2025-09-23 15:53:39,906 INFO werkzeug: 127.0.0.1 - - [23/Sep/2025 15:53:39] "[31m[1mGET /api/prices HTTP/1.1[0m" 401 -
+2025-09-23 15:53:49,329 DEBUG urllib3.util.retry: Incremented Retry for (url='/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Cbinancecoin%2Csolana&price_change_percentage=24h'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-09-23 15:53:49,330 WARNING urllib3.connectionpool: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001F887D4AFD0>, 'Connection to api.coingecko.com timed out. (connect timeout=10)')': /api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Cbinancecoin%2Csolana&price_change_percentage=24h
+2025-09-23 15:53:49,330 DEBUG urllib3.connectionpool: Starting new HTTPS connection (2): api.coingecko.com:443
+2025-09-23 15:53:53,664 DEBUG urllib3.connectionpool: https://api.coingecko.com:443 "GET /api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Cbinancecoin%2Csolana&price_change_percentage=24h HTTP/1.1" 200 None
+2025-09-23 15:53:53,810 INFO app: Background update: Success
+2025-09-23 15:53:59,619 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.coingecko.com:443
+2025-09-23 15:54:00,443 DEBUG urllib3.connectionpool: https://api.coingecko.com:443 "GET /api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Cbinancecoin%2Csolana&price_change_percentage=24h HTTP/1.1" 200 None
+2025-09-23 15:54:00,445 INFO werkzeug: 127.0.0.1 - - [23/Sep/2025 15:54:00] "GET /api/prices HTTP/1.1" 200 -
