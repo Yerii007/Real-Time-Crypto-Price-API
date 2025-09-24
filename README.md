@@ -110,7 +110,9 @@ pytest -v
 
 ## 🐳 Docker (optional)
 
-A `Dockerfile` can be added to containerize the app. (Planned for the next phase.)
+- docker build -t crypto-api .
+- docker run -p 5000:5000 crypto-api
+
 
 ## 📜 License
 
